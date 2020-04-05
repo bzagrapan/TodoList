@@ -1,0 +1,189 @@
+﻿html, body {
+    background-color: rgb(179, 179, 179);
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+button {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 30px;
+    color: rgb(255, 153, 0);
+    background: black;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-color: black;
+    border-radius: 25px;
+    border-style: dashed;
+    border-color: white;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: white;
+        color: rgb(255, 153, 0);
+        border-color: black;
+    }
+
+.button_panel {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header_placeholder {
+    height: 15%;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.header {
+    padding: 40px;
+    text-align: center;
+    background: rgb(32, 28, 42);
+    color: rgb(255, 153, 0);
+    font-size: 50px;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    border-radius: 25px;
+}
+
+.menu_window {
+    position: relative;
+    background: rgb(32, 28, 42);
+    color: rgb(90, 140, 139);
+    margin-left: 10%;
+    margin-right: 10%;
+    height: auto;
+    border-radius: 25px;
+}
+
+.items_placeholder {
+    position: relative;
+    background: rgb(32, 28, 42);
+    color: rgb(32, 28, 42);
+    margin-left: 10%;
+    margin-right: 10%;
+    max-height: 67vh;
+    min-height: 67vh;
+    min-width: 80vh;
+    margin-top: 10px;
+    overflow: auto;
+    border-radius: 25px;
+}
+
+.item {
+    text-align: center;
+    display: inline-block;
+    width: 36%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgb(255, 153, 0);
+}
+
+.row {
+    display: flex;
+}
+
+.index {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 3px;
+    flex: 0.5;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: white;
+    border-radius: 25px;
+}
+
+.firstRowContent {
+    padding: 10px;
+    margin-bottom: 3px;
+    overflow: hidden;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: white;
+    border-radius: 25px;
+    flex: 0.9
+}
+
+div.firstRowContent:hover {
+    background-color: rgb(230, 138, 0);
+}
+
+.firstRowButton {
+    padding: 10px;
+    margin-bottom: 3px;
+    width: 100%;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: white;
+    border-radius: 25px;
+    flex: 0.1;
+    border-style: none;
+    text-align: right;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    width: 30%;
+    height: 30%;
+    background: orange;
+    z-index: 100;
+}
+
+#hdnBackground {
+    display: none;
+    position: absolute;
+    background: rgba(115, 115, 115, 0.8);
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+}
+
+.completed {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex: 0.5;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: white;
+    border-radius: 25px;
+}
+
+.in_progress {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex: 0.5;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: white;
+    color: rgb(204, 0, 0);
+    border-radius: 25px;
+}
+
+div.completed:hover, div.in_progress:hover {
+    background-color: rgb(230, 138, 0);
+}
+
+#style-1::-webkit-scrollbar {
+    width: 10px;
+    color: rgb(90, 140, 139);
+}
+
+#style-1::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 153, 0);
+    border-radius: 25px;
+}
