@@ -3,7 +3,7 @@ import TodoListItem from './TodoListItem.js';
 
 const TodoList = props => {
     const [state, setState] = useState({ items: [] });
-    const [LoadingState, setIsLoading] = useState({ loading: true });
+    const [loadingState, setIsLoading] = useState({ loading: true });
 
     useEffect(() => {
         fetch('https://jsonplaceholder.typicode.com/todos')
